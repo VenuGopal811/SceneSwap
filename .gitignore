@@ -1,0 +1,42 @@
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Project data (uploaded photos, generated outputs, model weights)
+data/uploads/
+data/outputs/
+data/cache/
+*.onnx
+*.pth
+*.safetensors
+
+# Logs
+*.log
+
+# Project docs - kept locally, not tracked/pushed to remote
+Docs/
+docs/
+DESIGN.md
+PROPOSAL.md
+PRD.md
+rules.md
