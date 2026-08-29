@@ -22,22 +22,39 @@ uvicorn backend.app.main:app --reload --port 8000
 
 ## Current Status
 
-Milestone 1 in progress: segmentation pipeline, standalone.
+Milestone 2 validated: Scene generation benchmark suite and provider-agnostic spike script (`backend/app/scene_gen_spike.py`).
 
-Test the segmentation spike directly, no API needed:
-
+### 1. Test Segmentation (Milestone 1)
 ```bash
 python backend/app/segmentation_spike.py path/to/test_photo.jpg path/to/output_cutout.png
 ```
 
-Run this against several varied test photos (different lighting, backgrounds,
-clothing) before moving to Milestone 2 (scene generation benchmark).
+### 2. Benchmark Scene Generation Backends (Milestone 2)
+Run the benchmark suite in mock mode (no API key required):
+```bash
+python backend/app/scene_gen_spike.py --benchmark
+```
+
+To run against live providers (Replicate, fal.ai, Stability AI), configure `.env`:
+```env
+SCENE_GEN_PROVIDER=fal          # Options: mock, replicate, fal, stability
+SCENE_GEN_API_KEY=your_api_key
+SCENE_GEN_MODEL=fal-ai/flux/schnell
+```
+
+Then run single prompt or benchmark:
+```bash
+python backend/app/scene_gen_spike.py --prompt "person trekking on a mountain trail at sunset" --output data/outputs/test_scene.png
+```
+
+Benchmark output metrics (latency, exact model cost, timestamp) are automatically recorded to `data/benchmarks/scene_gen_benchmark.json` and `scene_gen_benchmark.csv`.
 
 ## Milestones (from PRD.md)
 
-1. Segmentation pipeline working standalone <- **you are here**
-2. Scene generation working standalone
+1. Segmentation pipeline working standalone [DONE]
+2. Scene generation working standalone <- **you are here**
 3. Compositing pipeline joining the two
 4. End-to-end web flow
 5. Cost/latency benchmarking and backend decision finalized
 6. Polish pass
+

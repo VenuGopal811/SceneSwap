@@ -1,0 +1,178 @@
+[
+  {
+    "provider": "mock",
+    "model": "mock-generator-v1",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\benchmark\\benchmark_mock_1.png",
+    "latency_seconds": 0.37803220748901367,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:17:03.084409Z",
+    "status": "success",
+    "error_message": null
+  },
+  {
+    "provider": "mock",
+    "model": "mock-generator-v1",
+    "prompt": "person on a tropical beach at midday",
+    "output_path": "data\\outputs\\benchmark\\benchmark_mock_2.png",
+    "latency_seconds": 0.3656575679779053,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:17:03.451761Z",
+    "status": "success",
+    "error_message": null
+  },
+  {
+    "provider": "mock",
+    "model": "mock-generator-v1",
+    "prompt": "person in a cyberpunk city street at night",
+    "output_path": "data\\outputs\\benchmark\\benchmark_mock_3.png",
+    "latency_seconds": 0.36540675163269043,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:17:03.819210Z",
+    "status": "success",
+    "error_message": null
+  },
+  {
+    "provider": "mock",
+    "model": "mock-generator-v1",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\test_single_trekking.png",
+    "latency_seconds": 0.3791468143463135,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:17:11.770601+00:00",
+    "status": "success",
+    "error_message": null
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_1.png",
+    "latency_seconds": 1.0209896564483643,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:23:56.274261+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person on a tropical beach at midday",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_2.png",
+    "latency_seconds": 0.853905439376831,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:23:57.130156+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person in a cyberpunk city street at night",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_3.png",
+    "latency_seconds": 0.9385590553283691,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:23:58.070723+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_1.png",
+    "latency_seconds": 1.313270092010498,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:16.127121+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person on a tropical beach at midday",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_2.png",
+    "latency_seconds": 0.921255350112915,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:17.050384+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person in a cyberpunk city street at night",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_3.png",
+    "latency_seconds": 0.9720897674560547,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:18.024479+00:00",
+    "status": "error",
+    "error_message": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_1.png",
+    "latency_seconds": 1.0338363647460938,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:45.141165+00:00",
+    "status": "error",
+    "error_message": "fal.ai API HTTP 403: {\"detail\":\"User is locked. Reason: TOP_UP.\"}"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person on a tropical beach at midday",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_2.png",
+    "latency_seconds": 0.9167335033416748,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:46.059883+00:00",
+    "status": "error",
+    "error_message": "fal.ai API HTTP 403: {\"detail\":\"User is locked. Reason: TOP_UP.\"}"
+  },
+  {
+    "provider": "fal",
+    "model": "fal-ai/flux/schnell",
+    "prompt": "person in a cyberpunk city street at night",
+    "output_path": "data\\outputs\\benchmark\\benchmark_fal_3.png",
+    "latency_seconds": 0.9018023014068604,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:24:46.963665+00:00",
+    "status": "error",
+    "error_message": "fal.ai API HTTP 403: {\"detail\":\"User is locked. Reason: TOP_UP.\"}"
+  },
+  {
+    "provider": "replicate",
+    "model": "black-forest-labs/flux-schnell",
+    "prompt": "person trekking on a mountain trail at sunset",
+    "output_path": "data\\outputs\\benchmark\\benchmark_replicate_1.png",
+    "latency_seconds": 2.0743069648742676,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:44:36.059592+00:00",
+    "status": "error",
+    "error_message": "Replicate API HTTP 402: {\"status\":402,\"detail\":\"Your account requires credit to run predictions.\",\"title\":\"Insufficient credit\"}"
+  },
+  {
+    "provider": "replicate",
+    "model": "black-forest-labs/flux-schnell",
+    "prompt": "person on a tropical beach at midday",
+    "output_path": "data\\outputs\\benchmark\\benchmark_replicate_2.png",
+    "latency_seconds": 0.32586216926574707,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:44:36.388458+00:00",
+    "status": "error",
+    "error_message": "Replicate API HTTP 402: {\"status\":402,\"detail\":\"Your account requires credit to run predictions.\",\"title\":\"Insufficient credit\"}"
+  },
+  {
+    "provider": "replicate",
+    "model": "black-forest-labs/flux-schnell",
+    "prompt": "person in a cyberpunk city street at night",
+    "output_path": "data\\outputs\\benchmark\\benchmark_replicate_3.png",
+    "latency_seconds": 0.3206641674041748,
+    "cost_usd": 0.0,
+    "timestamp": "2026-08-29T09:44:36.721122+00:00",
+    "status": "error",
+    "error_message": "Replicate API HTTP 402: {\"status\":402,\"detail\":\"Your account requires credit to run predictions.\",\"title\":\"Insufficient credit\"}"
+  }
+]
